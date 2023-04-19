@@ -25,4 +25,4 @@ Example usage:
 
 ## Output
 
-The script will create a directory with the name of the website (without the `www.` prefix) followed by `_output`, and save the filtered content to multiple files with a maximum size of 8000 characters (or 2049 if using the GPT-4 model). The script will also create another directory with the name of the website followed by `_to_optimize`, and save the optimized outputs to files with the prefix `optimized_output`. Finally, the script will merge all outputs into a single file with the name of the website followed by `.txt`.
+The script will create a directory with the name of the website (without the `www.` prefix) followed by `_output`, and save the filtered content to multiple files with a maximum size of 2049 characters (or 8000 if using the GPT-4 model). The script will also create another directory with the name of the website followed by `_to_optimize`, and save the optimized outputs to files with the prefix `optimized_output`. Finally, the script will merge all outputs into a single file with the name of the website followed by `.txt`.
